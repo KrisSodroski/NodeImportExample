@@ -6,6 +6,7 @@ class LinqlNodeExample {
         //Uncaught Error Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'linql.core' imported from C:\testModuleImport\Typescript\dist\linql.client\fesm2015\linql.client.mjs
         // const test = new DataModelClient();
         // console.log(test);
+        console.log('hello');
         //This does work, so obviously it can find linql.core
         const test2 = new CoreModel();
         console.log(test2);
